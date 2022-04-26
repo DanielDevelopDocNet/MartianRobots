@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MartianRobots
 {
-    internal class IAppConsole
+    public interface IAppConsole
     {
+        void Execute();
+
+        void Exit();
     }
 }
